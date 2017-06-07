@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "name": "ggw-api",
+  "author": "@ndaidong",
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "scripts": {
+    "start": "node server",
+    "jsonserver": "json-server --watch documents.json --port 3001"
+  },
+  "dependencies": {
+    "chance": "1.x.x",
+    "json-server": "0.x.x",
+    "jsontoxml": "0.0.11"
+  },
+  "license": "MIT"
+}
