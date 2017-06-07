@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "ggw-api",
+  "name": "zato-demo",
   "author": "@ndaidong",
   "engines": {
     "node": ">= 7.6"
