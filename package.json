@@ -12,7 +12,7 @@
   "dependencies": {
     "chance": "1.x.x",
     "json-server": "0.x.x",
-    "jsontoxml": "0.0.11"
+    "jsontoxml": "0.x.x"
   },
   "license": "MIT"
 }
