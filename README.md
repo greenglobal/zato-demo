@@ -14,7 +14,7 @@ docker pull ndaidong/nodeserver
 2, Start Zato cluster:
 
 ```
-docker run --name cluster1 -it -p 22 p 6379:6379 -p 8183:8183 -p 17010:17010 -p 17011:17011 -p 11223:11223 ndaidong/zato:v2.0.7
+docker run --name cluster1 -it -p 22 -p 6379:6379 -p 8183:8183 -p 17010:17010 -p 17011:17011 -p 11223:11223 ndaidong/zato:v2.0.7
 ```
 
 
