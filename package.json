@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "node server",
-    "jsonserver": "json-server --watch documents.json --port 3001"
+    "jsonserver": "json-server --watch documents.json --port 8186"
   },
   "dependencies": {
     "chance": "1.x.x",
