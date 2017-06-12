@@ -1,0 +1,52 @@
+version: '2'
+services:
+  cluster:
+    container_name: "cluster1"
+    image: ndaidong/zato:v2.0.7
+    ports:
+      - "8183:8183"
+      - "11223:11223"
+    environment:
+      - NODE_ENV=development
+    entrypoint: |
+      bash -c 'bash -s <<EOF
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "Passwords to login Admin Dashboard:"
+      cat /opt/zato/web_admin_password /opt/zato/zato_user_password
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "//////////////////////////////////////////////////////////////////"
+      echo "//////////////////////////////////////////////////////////////////"
+      /usr/bin/supervisord -c /opt/zato/supervisord.conf
+      EOF'
+  serviceJSON:
+    container_name: "service1"
+    image: ndaidong/nodeserver
+    volumes:
+      - .:/home:z
+    ports:
+      - "8185:8185"
+    environment:
+      - NODE_ENV=development
+    entrypoint: |
+      bash -c 'bash -s <<EOF
+      npm install
+      node server1
+      EOF'
+  serviceXML:
+    container_name: "service2"
+    image: ndaidong/nodeserver
+    volumes:
+      - .:/home:z
+    ports:
+      - "8186:8186"
+    environment:
+      - NODE_ENV=development
+    entrypoint: |
+      bash -c 'bash -s <<EOF
+      npm install
+      node server2
+      EOF'

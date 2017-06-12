@@ -14,5 +14,9 @@
     "json-server": "0.x.x",
     "jsontoxml": "0.x.x"
   },
+  "devDependencies": {
+    "eslint": "3.x.x",
+    "eslint-config-ggc": "1.x.x"
+  },
   "license": "MIT"
 }
