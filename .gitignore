@@ -58,3 +58,7 @@ typings/
 .env
 
 storage
+
+yarn.lock
+coverage.lcov
+package-lock.json
