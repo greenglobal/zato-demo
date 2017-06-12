@@ -65,5 +65,5 @@ var server = require('http')
 
 server.listen(PORT, () => {
   console.log(`JSON Server is running at ${PORT}`);
-  console.log(`XML Documents http://localhost:${PORT}/xml/documents`);
+  console.log(`XML Documents http://localhost:${PORT}/documents`);
 });

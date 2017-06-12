@@ -68,9 +68,14 @@ server.use(jsonServer.bodyParser);
 
 server.use((req, res, next) => {
   if (req.method === 'POST') {
-    console.log(req.body);
+    let {body} = req;
+    console.log(body);
+    if (!body.title || !body.id) {
+      console.log('Invalid POST data');
+      return res.end();
+    }
   }
-  next();
+  return next();
 });
 
 server.use(router);

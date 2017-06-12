@@ -5,6 +5,14 @@ from json import dumps
 # Zato
 from zato.server.service import Service
 
+class D(object):
+  def __init__(self, id, title, content, author, sentAt):
+    self.id = id
+    self.title = title
+    self.content = content
+    self.author = author
+    self.sentAt = sentAt
+
 class DocumentTransformer(Service):
 
   class SimpleIO:
@@ -20,18 +28,15 @@ class DocumentTransformer(Service):
 
     self.logger.info('Request: {}'.format(request))
 
-    data = {}
-    data['id'] = request.id
-    data['title'] = request.subject
-    data['content'] = request.body
-    data['author'] = request.by
-    data['sentAt'] = request.time
+    payload = {}
+    payload['id'] = request.id
+    payload['title'] = request.subject
+    payload['content'] = request.body
+    payload['author'] = request.by
+    payload['sentAt'] = request.time
 
-    self.logger.info(111111111111)
-    self.logger.info('Data{} '.format(data))
-    self.logger.info(2222222222222)
+    params = {}
+    headers = {'Content-Type': 'application/json'}
+    response = jsonService.conn.post(self.cid, dumps(payload), params, headers=headers)
 
-    response = jsonService.conn.post(self.cid, dumps(data))
-
-    self.logger.info('Response {}'.format(response))
-    self.response.payload = request
+    self.response.payload = payload

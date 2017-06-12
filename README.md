@@ -42,7 +42,6 @@ docker exec cluster1 cat /opt/zato/web_admin_password /opt/zato/zato_user_passwo
   - Login with username "admin" and the above password
 
 
-
 #### 4, Test documents services
 
 After adding the services in /service1 & service2:
@@ -50,6 +49,6 @@ After adding the services in /service1 & service2:
 
 ```
 $ curl localhost:11223/tutorial/first-service -d '{"cust_id":123, "cust_type":"A"}'
-$ curl localhost.2:11223/documents -X POST -d '<request><id>11</id><subject>Hello world</subject><body>Here is the body</body><by>Xooner</by><time>1106058601</time></request>'
+$ curl localhost:11223/documents -X POST -d '<request><id>11</id><subject>Hello world</subject><body>Here is the body</body><by>Xooner</by><time>1106058601</time></request>'
 ...
 ```
