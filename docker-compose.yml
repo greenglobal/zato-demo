@@ -25,6 +25,8 @@ services:
   serviceJSON:
     container_name: "service1"
     image: ndaidong/nodeserver
+    depends_on:
+      - cluster
     volumes:
       - .:/home:z
     ports:
@@ -39,6 +41,8 @@ services:
   serviceXML:
     container_name: "service2"
     image: ndaidong/nodeserver
+    depends_on:
+      - serviceJSON
     volumes:
       - .:/home:z
     ports:
