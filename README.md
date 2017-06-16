@@ -1,5 +1,5 @@
 # zato-demo
-Sample ESB with Zato. Watch our [YouTube playlist here](https://www.youtube.com/playlist?list=PLCdvEQLhYkYlx55howEcc7OTWdY21_-Fo).
+Sample ESB with Zato. Watch our [YouTube playlist here](https://goo.gl/hzsCBA).
 
 ### Guide
 
