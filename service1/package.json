@@ -1,6 +1,6 @@
 {
   "version": "0.0.1",
-  "name": "zato-demo",
+  "name": "zato-demo-service-1",
   "author": "@ndaidong",
   "engines": {
     "node": ">= 7.6"

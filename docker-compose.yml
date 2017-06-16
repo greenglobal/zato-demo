@@ -28,16 +28,15 @@ services:
     depends_on:
       - cluster
     volumes:
-      - .:/home:z
+      - ./service1:/home:z
     ports:
       - "8185:8185"
     environment:
       - NODE_ENV=development
     entrypoint: |
       bash -c 'bash -s <<EOF
-      npm cache clean
       npm install
-      node server1
+      npm start
       EOF'
   serviceXML:
     container_name: "service2"
@@ -45,14 +44,13 @@ services:
     depends_on:
       - serviceJSON
     volumes:
-      - .:/home:z
+      - ./service2:/home:z
     ports:
       - "8186:8186"
     environment:
       - NODE_ENV=development
     entrypoint: |
       bash -c 'bash -s <<EOF
-      npm cache clean
       npm install
-      node server2
+      npm start
       EOF'
