@@ -5,14 +5,6 @@ from json import dumps
 # Zato
 from zato.server.service import Service
 
-class D(object):
-  def __init__(self, id, title, content, author, sentAt):
-    self.id = id
-    self.title = title
-    self.content = content
-    self.author = author
-    self.sentAt = sentAt
-
 class DocumentTransformer(Service):
 
   class SimpleIO:
