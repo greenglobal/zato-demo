@@ -35,6 +35,7 @@ services:
       - NODE_ENV=development
     entrypoint: |
       bash -c 'bash -s <<EOF
+      npm cache clean
       npm install
       node server1
       EOF'
@@ -51,6 +52,7 @@ services:
       - NODE_ENV=development
     entrypoint: |
       bash -c 'bash -s <<EOF
+      npm cache clean
       npm install
       node server2
       EOF'
