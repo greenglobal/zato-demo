@@ -1,13 +1,12 @@
-version: '2'
+version: "2"
+
 services:
-  cluster:
-    container_name: "cluster1"
-    image: ndaidong/zato:v2.0.7
+
+  esbcore:
+    image: ndaidong/zato:cluster
     ports:
       - "8183:8183"
       - "11223:11223"
-    environment:
-      - NODE_ENV=development
     entrypoint: |
       bash -c 'bash -s <<EOF
       echo "//////////////////////////////////////////////////////////////////"
@@ -22,30 +21,14 @@ services:
       echo "//////////////////////////////////////////////////////////////////"
       /usr/bin/supervisord -c /opt/zato/supervisord.conf
       EOF'
-  serviceJSON:
-    container_name: "service1"
+  docsv:
     image: ndaidong/nodeserver
     depends_on:
-      - cluster
+      - esbcore
     volumes:
-      - ./service1:/home:z
+      - ./services:/home
     ports:
       - "8185:8185"
-    environment:
-      - NODE_ENV=development
-    entrypoint: |
-      bash -c 'bash -s <<EOF
-      npm install
-      npm start
-      EOF'
-  serviceXML:
-    container_name: "service2"
-    image: ndaidong/nodeserver
-    depends_on:
-      - serviceJSON
-    volumes:
-      - ./service2:/home:z
-    ports:
       - "8186:8186"
     environment:
       - NODE_ENV=development

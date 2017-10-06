@@ -1,0 +1,27 @@
+{
+  "version": "0.0.2",
+  "name": "zato-services",
+  "description": "Sample services for Zato ESB demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greenglobal/zato-demo"
+  },
+  "author": "@ndaidong",
+  "engines": {
+    "node": ">= 7.6"
+  },
+  "scripts": {
+    "start": "node setup & node jsonDocService & node xmlDocService",
+    "reset": "node reset"
+  },
+  "dependencies": {
+    "chance": "1.x.x",
+    "json-server": "0.x.x",
+    "jsontoxml": "0.x.x"
+  },
+  "devDependencies": {
+    "eslint": "4.x.x",
+    "eslint-config-ggc": "1.x.x"
+  },
+  "license": "MIT"
+}
