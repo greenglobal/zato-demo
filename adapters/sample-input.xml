@@ -1,0 +1,142 @@
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header>
+    <edXML:MessageHeader
+      xmlns:edXML="http://www.e-doc.vn/Schema/">
+      <edXML:From>
+        <edXML:OrganId>00.01.G14</edXML:OrganId>
+        <edXML:OrganName>Cục Tin học hóa</edXML:OrganName>
+        <edXML:OrganizationInCharge>Bộ Thông tin truyền thông</edXML:OrganizationInCharge>
+        <edXML:OrganAdd>Tầng 2, tòa nhà DETECH, số 8 Tôn Thất Thuyết</edXML:OrganAdd>
+        <edXML:Email>vanthucucud@mic.gov.vn</edXML:Email>
+        <edXML:Telephone>(84-4)37821766</edXML:Telephone>
+        <edXML:Fax>(84-4)35378208</edXML:Fax>
+        <edXML:Website>http://www.aita.gov.vn</edXML:Website>
+      </edXML:From>
+      <edXML:To>
+        <edXML:OrganId>00.01.H26</edXML:OrganId>
+        <edXML:OrganName>Sở TTTT Thành phố Hà Nội</edXML:OrganName>
+        <edXML:OrganAdd>185 Giảng Võ - Đống Đa - Hà Nội</edXML:OrganAdd>
+        <edXML:Email>sotttt@ict-hanoi.gov.vn</edXML:Email>
+        <edXML:Telephone>(04)35123536</edXML:Telephone>
+        <edXML:Fax>(04)37366617</edXML:Fax>
+        <edXML:Website>http://www.ict-hanoi.gov.vn</edXML:Website>
+      </edXML:To>
+      <edXML:To>
+        <edXML:OrganId>00.01.H29</edXML:OrganId>
+        <edXML:OrganName>Sở TTTT Thành phố Hồ Chí Minh</edXML:OrganName>
+        <edXML:OrganAdd>59 Lý Tự Trọng, Quận 1, Thành phố Hồ Chí Minh</edXML:OrganAdd>
+        <edXML:Email>sotttt@tphcm.gov.vn</edXML:Email>
+        <edXML:Telephone>(84-8)35202727</edXML:Telephone>
+        <edXML:Fax>(84-8)35202424</edXML:Fax>
+        <edXML:Website>http://www.ict-hcm.gov.vn</edXML:Website>
+      </edXML:To>
+      <edXML:Code>
+        <edXML:CodeNumber>269</edXML:CodeNumber>
+        <edXML:CodeNotation>BTTTT-ƯDCNTT</edXML:CodeNotation>
+      </edXML:Code>
+      <edXML:PromulgationInfo>
+        <edXML:Place>Hà Nội</edXML:Place>
+        <edXML:PromulgationDate>06/02/2012</edXML:PromulgationDate>
+      </edXML:PromulgationInfo>
+      <edXML:DocumentType>
+        <edXML:Type>2</edXML:Type>
+        <edXML:TypeName>Công văn</edXML:TypeName>
+      </edXML:DocumentType>
+      <edXML:Subject>V/v giải thích việc áp dụng các tiêu chuẩn kỹ thuật chính sử dụng cho hệ thống cổng thông tin điện tử và hệ thống thư điện tử</edXML:Subject>
+      <edXML:Content/>
+      <edXML:SignerInfo>
+        <edXML:Competence>TL. BỘ TRƯỞNG</edXML:Competence>
+        <edXML:Position>CỤC TRƯỞNG CỤC ỨNG DỤNG CÔNG NGHỆ THÔNG TIN</edXML:Position>
+        <edXML:FullName>Nguyễn Thành Phúc</edXML:FullName>
+      </edXML:SignerInfo>
+      <edXML:DueDate/>
+      <edXML:ToPlaces>
+        <edXML:Place>Bộ trưởng(để b/c)</edXML:Place>
+        <edXML:Place>Thứ trưởng Nguyễn Minh Hồng(để b/c)</edXML:Place>
+        <edXML:Place>Sở TT&amp;TT các tỉnh, thành phố trực thuộc TW</edXML:Place>
+        <edXML:Place>Đơn vị chuyên trách về CNTT các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ</edXML:Place>
+        <edXML:Place>Lưu: VT, ƯDCNTT</edXML:Place>
+      </edXML:ToPlaces>
+      <edXML:OtherInfo>
+        <edXML:Priority>0</edXML:Priority>
+        <edXML:SphereOfPromulgation/>
+        <edXML:TyperNotation/>
+        <edXML:PromulgationAmount>1</edXML:PromulgationAmount>
+        <edXML:PageAmount>1</edXML:PageAmount>
+      </edXML:OtherInfo>
+      <edXML:Appendixes>
+        <edXML:Appendixe>Phụ lục 1 (Giải thích việc áp dụng các tiêu chuẩn kỹ thuật chính sử dụng cho cổng thông tin điện tử)</edXML:Appendixe>
+        <edXML:Appendixe>Phụ lục 2 (Giải thích việc áp dụng các tiêu chuẩn kỹ thuật chính sử dụng cho hệ thống thư điện tử)</edXML:Appendixe>
+      </edXML:Appendixes>
+    </edXML:MessageHeader>
+    <edXML:TraceHeaderList
+      xmlns:edXML="http://www.e-doc.vn/Schema/">
+      <edXML:TraceHeader>
+        <edXML:OrganId>00.01.G14</edXML:OrganId>
+        <edXML:Timestamp>02/04/2014 09:23:34</edXML:Timestamp>
+      </edXML:TraceHeader>
+      <edXML:TraceHeader>
+        <edXML:OrganId>00.01.H26</edXML:OrganId>
+        <edXML:Timestamp>02/04/2014 09:25:56</edXML:Timestamp>
+      </edXML:TraceHeader>
+      <edXML:TraceHeader>
+        <edXML:OrganId>00.01.H29</edXML:OrganId>
+        <edXML:Timestamp>02/04/2014 09:26:23</edXML:Timestamp>
+      </edXML:TraceHeader>
+    </edXML:TraceHeaderList>
+    <edXML:ErrorList xmlns:edXML="http://www.e-doc.vn/Schema/" />
+    <Signature
+      xmlns="http://www.w3.org/2000/09/xmldsig#">
+      <SignedInfo>
+        <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" />
+        <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+        <Reference URI="">
+          <Transforms>
+            <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+            <Transform Algorithm="http://www.w3.org/TR/xml-exc-c14n#" />
+          </Transforms>
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>FwgIqsSYJshUS2+wlOM61L+q7Aw=</DigestValue>
+        </Reference>
+        <Reference URI="cid:208">
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>d84Dd9770Rt3sfStVMpA6l7yhJA=</DigestValue>
+        </Reference>
+        <Reference URI="cid:209">
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>d84Dd9770Rt3sfStVMpA6l7yhJA=</DigestValue>
+        </Reference>
+        <Reference URI="cid:210">
+          <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+          <DigestValue>d84Dd9770Rt3sfStVMpA6l7yhJA=</DigestValue>
+        </Reference>
+      </SignedInfo>
+      <SignatureValue>FXM4QWgcX3Eb0fdB+p50Kh9p4jhnc2rIzvun5+FRlQ2ruCClXQKGMbupEq3qXpTXNxxHcD/euv+RFH2EgIbyh070uj6lIW4z1fZAuVtOkMjbgVLjoTyy9xtqc+PXcmUO8vqX7oyzR7MLK5JCkIsDUD0PNIxD7l8kFFqqVfvhvb4RL466YBEh2m48gbDzkWizBis6sFHXzQH20ACc9ko39NPiPNfcKjG0f/q4/esbPPyzOUTcdRMW6+hTI6aPFb8jn/MSS43VE4TbiDJIllWkmULnLspC1MzTMEaKba5Cq7NvoIRif9E5NK316WYA7hponYI6kyLCdJxoOZEtOnSSQg==</SignatureValue>
+      <KeyInfo>
+        <X509Data>
+          <X509SubjectName>CN=user05, L=Ha Noi, O=Ban Co yeu Chinh phu, OU=Cuc Quan ly Ky thuat Nghiep vu Mat Ma, OU=Trung tam chung thuc dien tu chuyen dung Chinh phu, C=VN</X509SubjectName>
+          <X509Certificate>MIIFqTCCBJGgAwIBAgIDLfAwMA0GCSqGSIb3DQEBBQUAMFYxCzAJBgNVBAYTAlZOMR0wGwYDVQQKDBRCYW4gQ28geWV1IENoaW5oIHBodTEoMCYGA1UEAwwfQ28gcXVhbiBjaHVuZyB0aHVjIHNvIENoaW5oIHBodTAeFw0xMTA0MTMwOTQyMzlaFw0xNjA0MTEwOTQyMzlaMIG7MQswCQYDVQQGEwJWTjE7MDkGA1UECwwyVHJ1bmcgdGFtIGNodW5nIHRodWMgZGllbiB0dSBjaHV5ZW4gZHVuZyBDaGluaCBwaHUxLjAsBgNVBAsMJUN1YyBRdWFuIGx5IEt5IHRodWF0IE5naGllcCB2dSBNYXQgTWExHTAbBgNVBAoMFEJhbiBDbyB5ZXUgQ2hpbmggcGh1MQ8wDQYDVQQHDAZIYSBOb2kxDzANBgNVBAMMBnVzZXIwNTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMh/+mvm2ev1584e1fzXElcfzTK5GuCmA9r74UkDfbiP+4MedIQ/k2pyL2mzM50sbpx+0AeRBSO0xIrb2yVsKmKC8JSzub8JLUhbyvtnh5rFLphBPRAi+MNvSZXByWDKvGHt8NwPGspNsgL1AI0bmz0GksOxiRmiI6mo/7YWFKBUCTkYB9a/pnLofJeBy/zQ2ekw6oUF5CNJq9t/MLXmP2s3AVdq4KR2PJ3xRiSUFKat9RBcgR5Qi+NbvuURsWnloYysWiyFMd6ifWSouocOb/T33Xlp+IVz6GaFfVwYQ299TEDVHqXQZg7KkfMenkQgyKe2jOIJBAI3pyLhcanS0t8CAwEAAaOCAhgwggIUMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMCUGCWCGSAGG+EIBDQQYFhZVc2VyIFNpZ24gb2YgQ2hpbmggcGh1MB0GA1UdDgQWBBT7mk6fmUv19ktMqjSzTsyIbRuIGTCBlQYDVR0jBIGNMIGKgBQFMUDeNL6zj8DbbsVDDj4S92PGHKFvpG0wazELMAkGA1UEBhMCVk4xHTAbBgNVBAoMFEJhbiBDbyB5ZXUgQ2hpbmggcGh1MT0wOwYDVQQDDDRDbyBxdWFuIGNodW5nIHRodWMgc28gY2h1eWVuIGR1bmcgQ2hpbmggcGh1IChSb290Q0EpggEEMBsGA1UdEQQUMBKBEHVzZXIwNUBjYS5nb3Yudm4wMgYJYIZIAYb4QgEEBCUWI2h0dHA6Ly9jYS5nb3Yudm4vcGtpL3B1Yi9jcmwvY3AuY3JsMDIGCWCGSAGG+EIBAwQlFiNodHRwOi8vY2EuZ292LnZuL3BraS9wdWIvY3JsL2NwLmNybDBjBgNVHR8EXDBaMCmgJ6AlhiNodHRwOi8vY2EuZ292LnZuL3BraS9wdWIvY3JsL2NwLmNybDAtoCugKYYnaHR0cDovL3B1Yi5jYS5nb3Yudm4vcGtpL3B1Yi9jcmwvY3AuY3JsMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAYYWaHR0cDovL29jc3AuY2EuZ292LnZuLzANBgkqhkiG9w0BAQUFAAOCAQEAbsHix/XUcD7i+p5ufYNVxxYk0J/guTxE6t9fbgPvMcpxQrUu9JpHmNkna/r/OvEm2p1y1aAb60DHaCl96nU17pt6HBMJt80X36RDUpghnkmmc3C6XZwCBve8A45WByYv+FNIEDpNoGgjZ2T5wpwWnq9w4d4Nnb5R4EZGZ7zKEu/JLo1VuH0gAM1KyVE1Qj3hEwHYbZDQHlsBXZURtmS89F33xcadMDny3ymoiPH9f7MMBSwmgDISnHCDgyBijJo3m9tQV2SeuLs6NxNWnFKkOWTISLrpTzEkbChYR1z4t/nIvJ7j0rwgRB+gWFxgYGj8HxcZMy8Xv9cy+f4XdNufMA==</X509Certificate>
+        </X509Data>
+      </KeyInfo>
+    </Signature>
+  </SOAP-ENV:Header>
+  <SOAP-ENV:Body>
+    <edXML:Manifest
+      xmlns:edXML="http://www.e-doc.vn/Schema/"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+      <edXML:Reference xlink:href="cid:208">
+        <edXML:AttachmentName>269-Huong dan tieu chuan.pdf</edXML:AttachmentName>
+        <edXML:Description>Công văn số 269/BTTTT-ƯDCNTT V/v giải thích việc áp dụng các tiêu chuẩn kỹ thuật chính sử dụng cho hệ thống cổng thông tin điện tử và hệ thống thư điện tử</edXML:Description>
+      </edXML:Reference>
+      <edXML:Reference xlink:href="cid:209">
+        <edXML:AttachmentName>269-Huong dan tieu chuan-Cong thong tin dien tu.pdf</edXML:AttachmentName>
+        <edXML:Description>Giải thích việc áp dụng các tiêu chuẩn kỹ thuật chính sử dụng cho cổng thông tin điện tử</edXML:Description>
+      </edXML:Reference>
+      <edXML:Reference xlink:href="cid:210">
+        <edXML:AttachmentName>269-Huong dan tieu chuan-Thu dien tu.pdf</edXML:AttachmentName>
+        <edXML:Description>Giải thích việc áp dụng các tiêu chuẩn kỹ thuật chính sử dụng cho hệ thống thư điện tử</edXML:Description>
+      </edXML:Reference>
+    </edXML:Manifest>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
