@@ -8,9 +8,6 @@ var {
 
 var server = require('http')
   .createServer((req, res) => {
-    res.writeHeader(200, {
-      'Content-Type': 'text/plain'
-    });
     res.writeHead(200, {'Content-Type': 'text/xml'});
     if (req.method === 'GET' && req.url === '/documents') {
       let s = readFileSync('./storage/documents.xml', 'utf8');

@@ -30,6 +30,7 @@ services:
     ports:
       - "8185:8185"
       - "8186:8186"
+      - "8187:8187"
     environment:
       - NODE_ENV=development
     entrypoint: |

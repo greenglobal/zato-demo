@@ -6,6 +6,8 @@ ENV ZATO_BIN /opt/zato/*.*/bin/zato
 
 RUN apt-get update && apt-get install -y \
     libcurl4-openssl-dev \
+    libxml2-dev \
+    libxslt1-dev \
     redis-server \
     ssh \
     supervisor && \
