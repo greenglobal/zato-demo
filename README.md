@@ -20,7 +20,7 @@ curl localhost:11223/zato/ping ; echo
 If everything is OK, we've got:
 
 
- - Zeto dashboard: http://localhost:8183
+ - Zato dashboard: http://localhost:8183
  - JSON Document Service: http://localhost:8185/documents
  - XML Document Service: http://localhost:8186/documents
 
